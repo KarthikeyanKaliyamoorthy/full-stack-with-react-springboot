@@ -1,9 +1,7 @@
 import './App.css';
 import { Component } from 'react';
-import FirstComponent from './components/learning-examples/FirstComponent';
-import FunctionCmpnt from './components/learning-examples/FunctionCmpnt';
-import Counter from './components/counter/Counter';
 import TodoComponent from './components/todo/TodoComponent';
+import './bootstrap.css';
 
 class App extends Component {
   render(){
@@ -16,16 +14,3 @@ class App extends Component {
 }
 
 export default App;
-
-class LearningComponents extends Component {
-
-  render(){
-    return (
-      <div className="LearningComponents">
-        Hello react
-        <FirstComponent/> 
-        <FunctionCmpnt/>
-      </div>
-    );
-  }
-}
