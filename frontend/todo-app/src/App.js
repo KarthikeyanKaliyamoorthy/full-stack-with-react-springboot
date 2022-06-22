@@ -1,13 +1,13 @@
 import './App.css';
 import { Component } from 'react';
-import TodoComponent from './components/todo/TodoComponent';
+import TodoApp from './components/todo/TodoApp';
 import './bootstrap.css';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <TodoComponent/>
+        <TodoApp/>
       </div>
     );
   }  
